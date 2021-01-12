@@ -1,0 +1,19 @@
+header {
+    display: flex;
+    width: 100%;
+    padding: 30px;
+    height: 40px;
+    background: #201f1f;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 10px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header a:hover {
+    color: #ccc;
+}

@@ -1,8 +1,14 @@
 import React from 'react';
 
+import './styles.css';
+
 function Header() {
     return (
-        <h1>Header</h1>
+        <header>
+            <a href="">Login</a>
+            <a href="">Home</a>
+            <a href="">Cadastre-se</a>
+        </header>
     )
 }
 
