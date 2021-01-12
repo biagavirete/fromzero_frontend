@@ -1,16 +1,22 @@
 import React from 'react';
 
+import { BrowserRouter } from 'react-router-dom';
+
 import Header from './components/Header';
-import Register from './components/Register';
+import Routes from './routes/routes';
+
+import { AuthProvider } from './components/context/AuthContext';
 
 import './global.css';
 
 function App() {
   return (
-    <>
+    <AuthProvider>
+    <BrowserRouter>
     <Header />
-    <Register />
-    </>
+    <Routes />
+    </BrowserRouter>
+    </AuthProvider>
   );
 }
 
